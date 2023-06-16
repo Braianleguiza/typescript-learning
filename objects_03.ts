@@ -16,3 +16,9 @@ let superman: Heroes = {
     age: 60,
     power: "Super velocidad"
 }
+
+function createSuperHero(hero: Hero): Hero {
+    const { name, age, power } = hero
+    return { name, age, power }
+}
+
